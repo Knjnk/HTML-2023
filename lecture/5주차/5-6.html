@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>table</title>
+</head>
+<body>
+    <h1>테이블 만들기</h1>
+    <hr>
+    <h3>열 그룹으로 묶기 - colgroup</h3>
+    <table>
+        <caption>1학기 성적</caption>
+    <colgroup>
+    <col style="background-color: pink;">
+    <col span="2">
+    <col style="background-color: lightblue;">
+    </colgroup>
+    <thead>
+        <tr><th>이름</th><th>HTML</th><th>Java</th><th>합계</th></tr>
+    </thead>
+    <tbody>
+        <tr><th>홍길금</th><th>100</th><th>100</th><th>200</th></tr>
+        <tr><th>홍길은</th><th>100</th><th>100</th><th>200</th></tr>
+        <tr><th>홍길동</th><th>100</th><th>100</th><th>200</th></tr>
+    </tbody>
+<tfoot>
+        <tr><th>평균</th><th>100</th><th>100</th><th>200</th></tr>
+</tfoot>
+    </table>
+    <!-- <colgroup>은 <caption> 뒤, <thead> 앞에 기술하세요.
+        <col> 태그는 <colgroup> 내에서 사용하며, 종료 태그가 없습니다.-->
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>iframe</title>
+</head>
+<body>
+    <h1>인라인 프레임 만들기 - iframe </h1>
+    <hr>
+    <h3>타겟 지정 - target 속성 사용하기 </h3>
+    <iframe src="about.blank"
+            name="frame"
+            width="700"
+            height=500>
+    </iframe><p>
+        <a href="https://www.daum.net" target=frame>DAUM(iframe)</a>&nbsp;&nbsp;
+        <a href="https://www.inje.ac.kr">인제대학교(no target)</a>&nbsp;&nbsp;
+        <a href="https://www.inje.ac.kr" target=_self>인제대학교(_self)</a>&nbsp;&nbsp;
+        <a href="https://www.daum.net" target=_blank>DAUM(_blank)</a>&nbsp;&nbsp; <!-- 이건 다시 열때마다 새 탭으로 엶-->
+        <a href="https://www.naver.com" target=_new>NAVER(_new)</a> <!-- 얜 한번 새 창으로 열면 계속 눌러도 처음 새로 연 페이지로 감-->
+</body>
+</html>
