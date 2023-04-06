@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Form Elements</title>
+</head>
+<body>
+    <h1>버튼 클릭하여 전송하기</h1><hr>
+    <h3>form 태그 내의 submit & reset 버튼</h3>
+    <form> <!-- <form 은 전송을 위한 태그 -->
+        검색 : <input type="text" name="search"> <!-- 텍스트인 타입 속성값을 서치로 바꾸면 더 검색창같아짐.-->
+        <input type="submit" value="검색">
+        <input type="reset" value="취소"><p>
+        이미지버튼 : 
+        <input type="image" src="blossom.jpg"
+            width="50" alt="이미지버튼"> <!-- 주소창 맨 뒤에 이미지 파일의 눌러진 좌표가 기록됨, 변수로 기억시킬려면 name 태그 사용 -->
+            <button><!-- 속성 지정을 하지 않으면 기본이 submit 속성임 -->
+                <img src="blossom.jpg" width="50"><br>검색
+            </button>
+        </form>
+</body>
+</html>

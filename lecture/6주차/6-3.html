@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Form Elements</title>
+</head>
+<body>
+    <h1>텍스트 입력 상자 만들기</h1><hr>
+    <h3>데이터 목록(datalist)을 가진 텍스트 입력 상자</h3>
+    여행하고 싶은 나라 :
+    <input type="text" name="country" list="countries">
+    <datalist id="countries">
+        <option value="가나">
+        <option value="노르웨이">
+        <option value="덴마크">
+        <option value="룩셈부르크">
+        </datalist>
+        <!-- list와 id의 속성 값을 동일하게! 
+        '텍스트 입력'과 '목록에서 선택' 둘 다 가능 -->
+</body>
+</html>
