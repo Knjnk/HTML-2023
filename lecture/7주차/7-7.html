@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>video</title>
+</head>
+<body>
+    <h1>비디오 삽입하기 -  video태그</h1>
+    <hr>
+    <video src="sample.mp4"
+    width="500" height="300"
+    controls autoplay
+    muted loop> <!-- muted 유무는 새로고침 후에도 계속 재생. EU는 음을 맞추지 않아도 되서 ㅇㅇ -->
+    브라우저가 video 태그를 지원하지 않습니다.
+        <!-- <video> 태그 지원하지 않을 때 출력할 친절한 텍스트-->
+</video><hr>
+<video width="500" height="300" controls autoplay>
+    <source src="sample.ogg" type="videp/ogg">
+    <source src="sample.webm" type="video/wav">
+    <source src="sample.mp4" type="video/mp4">
+</video>
+            <!-- <source> 태그 사용 시 브라우저가 재상 가능한 타입 선택-->
+</body>
+</html>
