@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>class 셀렉터</title>
+    <style>
+        h2.red {color: red;}
+        .blue {font-weight: bold; color: blue;}
+        .green {font-style: italic; color: green;}
+        div {font-style: italic; color: purple;}
+        </style>
+</head>
+<body>
+    <h1>class 셀렉터</h1><hr>
+    <h2 class=red>스타일 red</h2>
+    <h2>스타일 적용 안됨</h2>
+    <h3 class=red> 스타일 적용 안됨</h3>
+    <!-- red 셀렉터는 <h2> 태그에서만 사용 가능-->
+        <p class="blue">스타일 blue</p>
+        <p class="green blue"> 스타일 green+blue</p>
+        <!-- green 셀렉터가 blue 셀렉터 보다 뒤에 정의 되어 초록색 적용-->
+        <div>스타일 div</div><br>
+        <div class="blue"> 스타일 div + blue</div>
+        <!-- class 셀렉터가 태그 이름 셀렉터보다 우선 순위가 높음-->
+</body>
+</html>
