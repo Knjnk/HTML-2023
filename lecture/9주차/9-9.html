@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>id 셀렉터</title>
+    <style>
+        h2#red {color: red; }
+        #blue {font-weight: bold; color: blue;}
+        .green {font-style: italic; color: green;}
+    </style>
+</head>
+<body>
+    <h1>id 셀렉터</h1><hr>
+    <h2 id=red>스타일 red</h2>
+    <h3 id=red>스타일 적용 안됨</h3>
+    <h3 id=blue>스타일 blue</h3>
+    <div id="blue" class="green">스타일 blue</div>
+    <!-- 동일한 이름의 id는 중복 사용하지 말고 한 번만 사요앟세요!
+    id 셀렉터가 class 셀렉터보다 우선 순위가 높음-->
+</body>
+</html>
