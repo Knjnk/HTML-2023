@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>자손&자식 셀렉터</title>
+    <style>
+        h2 b {color: red; font-family: 궁서체;} /* 자손 셀렉터 */
+        p b {color: blue; font-family: 휴먼 옛체;}
+        p > i > b {color: green;} /* 자식 셀렉터 */
+        </style>
+</head>
+<body>
+    <h1>Descendent selector & Child selector</h1><hr>
+    <h2>스타일 <b>시트</b></h2>
+    <p>스타일 <b>시트</b></p>
+    <p> 태그 내의 <u> 다른 태그 <b> 스타일 정의</b></u></p>
+    <p> 태그 내의 <i> 다른 태그 <b> 스타일 정의</b></i></p>
+    <b>스타일 적용 안 됨</b>
+</body>
+</html>
